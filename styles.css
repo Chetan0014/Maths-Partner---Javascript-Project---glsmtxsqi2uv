@@ -5,14 +5,16 @@ h1{
     background-image: conic-gradient(#553c9a, #d7b5ae, #00c2cb);
 }
 
+
 .main{
-    gap: 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    font-size: 30px;
-    font-variant: small-caps;
+    gap: 20px;
+    border: 1px solid #00c2cb;
+    border-radius: 20px;
+    background-image: conic-gradient(#9dc4c5, #d7b5ae, #00c2cba3);
 }
 
 label{
@@ -66,7 +68,7 @@ button{
 }
 
 .display{
-    width: 76%;
+    width: 40%;
     height: auto;
     text-align: center;
     border: 1px solid rgba(95, 92, 46, 0.808);

@@ -7,7 +7,6 @@ const result=document.querySelector(".answer");
 async function display(){
     let ASCIIValue=encodeURIComponent(input.value);
     const selectCategory=category.value;
-        
         const fetchData=await fetch(`https://newton.now.sh/api/v2/${selectCategory}/${ASCIIValue}`);
          const data =await fetchData.json();
             const textData={
